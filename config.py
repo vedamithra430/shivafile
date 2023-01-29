@@ -22,7 +22,7 @@ API_HASH = os.environ.get("API_HASH", "58a95dfc2c752902d6abcf206ad08e78")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001748153763"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1706155743"))
+OWNER_ID = 1706155743 #int(os.environ.get("OWNER_ID", "1706155743"))
 
 #Port
 PORT = os.environ.get("PORT", "69")
@@ -62,6 +62,7 @@ USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(617075060)
+ADMINS.append(1706155743)
 
 LOG_FILE_NAME = "Filmy4us.txt"
 
