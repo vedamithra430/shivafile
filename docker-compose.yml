@@ -3,7 +3,7 @@ version: "3.3"
 services:
   app:
     build: .
-    command: bash start.sh
+    command: python3 main.py
     restart: on-failure
     ports:
       - "69:69"
